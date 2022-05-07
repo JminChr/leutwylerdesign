@@ -1,0 +1,348 @@
+html {
+  height: 100%;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 50px; /* Set same as footer's height */
+}
+
+
+
+body {
+  font-family: Roboto, sans-serif;
+  color: #666666;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  position: relative;
+}
+
+header {
+  padding: 20px 0 0 0;
+}
+
+header ul {
+  list-style: none;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+break {
+  flex-basis: 100%;
+
+}
+
+header .flex-container, 
+footer .row {
+  display: flex;
+  align-items: center;
+  
+}
+
+header img {
+  max-height: 80px;
+  width: auto;
+
+}
+
+.pic {
+  
+  max-height: 400px;
+  width: auto;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.bexiobadge {
+  max-height: 200px;
+  width: auto;
+}
+
+
+.logo {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  float: left;
+  margin: 0 4rem;
+}
+
+@media screen and (max-width: 730px) {
+  .logo {
+    float: none;
+  }
+  
+  .kontakt {
+    justify-content: center;
+  }
+  .nav-resp {
+    display: none;
+  }
+  .menu-resp {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  
+  }
+  .nav-en {
+    padding-left: 20px;
+   }
+    
+}
+
+@media screen and (min-width: 731px) {
+
+  .menu-resp {
+    display: none;
+  }
+}
+
+.menu-resp a {
+  color: #666666;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+nav a {
+  color: #666666;
+}
+
+nav a:hover {
+  color: black;
+}
+
+
+nav li {
+  float: left;
+  
+}
+
+
+
+.nav-de {
+ padding-right: 0;
+ color: #666666;
+ font-size: 14px;
+}
+
+.nav-de:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-en {
+ padding-left: 8px;
+ color: #666666;
+ font-size: 14px;
+ justify-content: center;
+}
+
+.nav-en:hover {
+  color: black;
+  text-decoration: none;
+}
+
+
+a {
+  padding: 0 20px;
+  margin: 0;
+}
+
+p a.link {
+  padding: 0;
+  margin: 0;
+}
+
+.linkedicons {
+  color: #666666;
+  padding: 0;
+  margin: 0 10px 0 0;
+}
+.linkedicons:hover {
+  color: black;
+}
+
+.socialmedia {
+  color: #666666;
+  display: flex; 
+
+}
+
+.menu-resp {
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('background.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 330px;
+}
+
+.jumbotron .container {
+  display: block;
+}
+
+.jumbotron h2 {
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) { 
+  .jumbotron {height: 180px;}
+  .jumbotron h1 {font-size: 30px; text-align: center;}
+  .jumbotron h5 {font-size: 20px; text-align: center;}
+  .home h3 {font-size: 18px; font-weight: bold; text-align: center;}
+  .home p {text-align: center;}
+  .services h3, .services p, .services a {font-size: 20px; font-weight:normal;}
+  .col-sm-6 .linkedicons .fa-2x {font-size: 3em; margin: 0 20px 0 0 }
+}
+
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.button {
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #666666;
+  border: 2px solid #666666;
+  opacity: 0.8;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.button_serv {
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #666666;
+  border: 2px solid #666666;
+  opacity: 0.8;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+
+
+
+.button:hover {
+  opacity: 1;
+}
+
+.button:active {
+  color: black;
+  background-color: #ffffff;
+  transform: translateY(2px);
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: 40px;
+  padding: 10px 10px;
+  font-size: 14px;
+  line-height: 1.42857;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-message {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  border: 1px solid #ccc;
+  padding: 10px 10px;
+  font-size: 14px;
+}
+
+.kontaktdetails {
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-item {
+  color: #666666;
+}
+
+footer {
+  position: absolute;
+  font-size: 12px;
+  padding-bottom: 0px;
+  color: #666666;
+  margin-top: auto;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+
+div.services {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+}
+
+.iconbox {
+  text-align: center;
+  color: #666666;
+  margin: 0px 20px;
+  min-width: 160px;
+}
+
+.iconbox a {
+  padding: 0px;
+  color: #666666;
+}
+.iconbox a:hover {
+  color: black;
+}
+
+.iconbox h3 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.iconbox p {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.textcenter {
+  text-align: center;
+  color: #666666;
+}

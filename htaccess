@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^jcas\.ch [NC]
+RewriteRule ^(.*)$ https://www.jcas.ch/$1 [L,R=301]
+</IfModule>
+
+
+
