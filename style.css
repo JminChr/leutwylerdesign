@@ -189,7 +189,7 @@ h1 {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('banner pic.jpg');
+  background-image: url('bannerpic.jpg');
   background-size: cover;
   color: #ffffff;
   height: 330px;
