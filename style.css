@@ -191,8 +191,9 @@ h1 {
   align-items: center;
   background-image: url('bannerpic.jpg');
   background-size: cover;
+  background-position: center;
   color: #ffffff;
-  height: 500px;
+  height: 1000px;
 }
 
 .jumbotron .container {
